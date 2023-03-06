@@ -1,10 +1,6 @@
 # Communication-System-Using-16APSK
 
-:::info
 :bulb: Capstone Course for Analysis and Design of Communication Systems
-:::
-
-[TOC]
 
 ---
 
@@ -13,25 +9,25 @@
 ## Simulated 16-apsk transmission system
 ### Tx
 - Message
-    1. Change text to bit
-    2. Downsampler Timing Offset
+    - Change text to bit
+    - Downsampler Timing Offset
 
 - Encode
-    1. Converting bits into decimal values for mapping
-    2. Mapping the values onto the correspondant constellation points
+    - Converting bits into decimal values for mapping
+    - Mapping the values onto the correspondant constellation points
     ![](https://i.imgur.com/P6PHVgq.png)
 
 
 - Up sampling and Pulse shaping
-    1. Zero pad T-spaced symbol sequence to create upsampled
-    2. Up sample
-    3. Build pulse of width using srrc
+    - Zero pad T-spaced symbol sequence to create upsampled
+    - Up sample
+    - Build pulse of width using srrc
     ![](https://i.imgur.com/Q1Tv2Uv.png)
 
-    4. Plot eye patern of In-phase signal
+    - Plot eye patern of In-phase signal
     ![](https://i.imgur.com/MhDEXG2.png)
 
-    5. Spectrum of the pulse shape
+    - Spectrum of the pulse shape
     ![](https://i.imgur.com/FKP3Nfh.png)
 
 - Transmit
@@ -55,13 +51,13 @@
 
 - A mixer with phase adaptation via Preprocessing and PLL
     ![](https://i.imgur.com/jvW4dB9.png)
-    1. Baseband Derotation
+    - Baseband Derotation
     ![](https://i.imgur.com/m5ki5gR.png)
 
 
 - Lowpass filtering for downconversion, matched filter, and interpolation all provided by a matched filter with adjusted timing offset adapted with maximization of the fourth power of downsampled signals in dual-loop configuration
     ![](https://i.imgur.com/g70MsAZ.png)
-    1. Time Recovery
+    - Time Recovery
     ![](https://i.imgur.com/oYmRyQK.png)
     ![](https://i.imgur.com/1L1Xrit.png)
 
